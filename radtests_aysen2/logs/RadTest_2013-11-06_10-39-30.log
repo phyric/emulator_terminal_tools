@@ -1,0 +1,100 @@
+2013-11-06_10-39-30 ==> Run tests: ... no tests selected.
+2013-11-06_10-39-36 ==> Run tests:  test1
+2013-11-06_10-39-36 ==> Start  =========================================
+2013-11-06_10-39-36 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :      0       0
+F2: Level-shifting Translator Bits, FPGA logic/IO :      0       0
+F3: Block RAM, FPGA logic/IO                      :      0       0
+F4a: Finisar - Rx SEU / Cannot-Write Reset        :      0       0
+F4b: Finisar - Tx SEU / Cannot-Retrieve Reset     :      0       0
+F5: Triple Voting, SEU Mitigation                 :      0       0
+F7: Resend BRAMs                                  :      0       0
+2013-11-06_10-39-36 ==> (Re)Initializing snap12 counters: 
+    --> snap12_counts_last[0] =  0
+    --> snap12_counts_last[1] =  0
+    --> snap12_counts_last[2] =  0
+    --> snap12_counts_last[3] =  3993865618
+    --> snap12_counts_last[4] =  0
+    --> snap12_counts_last[5] =  2395194562
+    --> snap12_counts_last[6] =  0
+    --> snap12_counts_last[7] =  0
+2013-11-06_10-39-36 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  0
+    --> snap12_counts[1] =  0
+    --> snap12_counts[2] =  0
+    --> snap12_counts[3] =  3993948589
+    --> snap12_counts[4] =  0
+    --> snap12_counts[5] =  2395277532
+    --> snap12_counts[6] =  0
+    --> snap12_counts[7] =  0
+2013-11-06_10-39-36 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :      1       0
+2013-11-06_10-39-36 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=1): 
+    --> snap12_counts[0] =  0
+    --> snap12_counts[1] =  0
+    --> snap12_counts[2] =  0
+    --> snap12_counts[3] =  3995627595
+    --> snap12_counts[4] =  0
+    --> snap12_counts[5] =  2396956546
+    --> snap12_counts[6] =  0
+    --> snap12_counts[7] =  0
+2013-11-06_10-39-36 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=2): 
+    --> snap12_counts[0] =  0
+    --> snap12_counts[1] =  0
+    --> snap12_counts[2] =  0
+    --> snap12_counts[3] =  3997373460
+    --> snap12_counts[4] =  0
+    --> snap12_counts[5] =  2398702419
+    --> snap12_counts[6] =  0
+    --> snap12_counts[7] =  0
+2013-11-06_10-39-36 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :      1       1
+2013-11-06_10-39-36 ==> Paused
+2013-11-06_10-39-36 ==> Runaway Errors
+2013-11-06_10-39-53 ==> Run tests:  test1
+2013-11-06_10-39-53 ==> Resume  ----------------------------------------
+2013-11-06_10-39-53 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :      1       1
+2013-11-06_10-39-53 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=0): 
+    --> snap12_counts[0] =  0
+    --> snap12_counts[1] =  0
+    --> snap12_counts[2] =  0
+    --> snap12_counts[3] =  2492752271
+    --> snap12_counts[4] =  0
+    --> snap12_counts[5] =  894081174
+    --> snap12_counts[6] =  0
+    --> snap12_counts[7] =  0
+2013-11-06_10-39-53 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :      2       1
+2013-11-06_10-39-53 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=1): 
+    --> snap12_counts[0] =  0
+    --> snap12_counts[1] =  0
+    --> snap12_counts[2] =  0
+    --> snap12_counts[3] =  2494477075
+    --> snap12_counts[4] =  0
+    --> snap12_counts[5] =  895805976
+    --> snap12_counts[6] =  0
+    --> snap12_counts[7] =  0
+2013-11-06_10-39-53 ***ERROR*** (F1e2) Change in snap12 error counters (ntry=2): 
+    --> snap12_counts[0] =  0
+    --> snap12_counts[1] =  0
+    --> snap12_counts[2] =  0
+    --> snap12_counts[3] =  2496159917
+    --> snap12_counts[4] =  0
+    --> snap12_counts[5] =  897488818
+    --> snap12_counts[6] =  0
+    --> snap12_counts[7] =  0
+2013-11-06_10-39-53 ==> Paused
+2013-11-06_10-39-53 ==> Runaway Errors Still Present!
+2013-11-06_10-39-57 ==> Counters updated:
+F1: Snap12 Links, FPGA logic/IO                   :      2       1
+2013-11-06_10-39-57 ==> Stopped
+2013-11-06_10-39-57 ==> FINAL SUMMARY:
+ on? Test                                              :   #SEU  #Runaways
+  *  F1: Snap12 Links, FPGA logic/IO                   :      2       1
+     F2: Level-shifting Translator Bits, FPGA logic/IO :      0       0
+     F3: Block RAM, FPGA logic/IO                      :      0       0
+     F4a: Finisar - Rx SEU / Cannot-Write Reset        :      0       0
+     F4b: Finisar - Tx SEU / Cannot-Retrieve Reset     :      0       0
+     F5: Triple Voting, SEU Mitigation                 :      0       0
+     F7: Resend BRAMs                                  :      0       0
